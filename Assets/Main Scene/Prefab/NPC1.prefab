@@ -28,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1178443646944916662}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 1.503, y: 0.7244, z: 0.145}
   m_LocalScale: {x: 1, y: 0.6644, z: 1}
   m_ConstrainProportionsScale: 0
@@ -36,7 +36,7 @@ Transform:
   - {fileID: 2312507060484375136}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &406676429847693320
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -65,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f96e74fa9aad82940a32957b45eba226, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -113,7 +113,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfcf0b525f6e6c840b43bfcae98a2980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectsToDestroy: []
+  objectsToDestroy:
+  - {fileID: 6386296222010291281, guid: 537cfd28903420148a0bdb0c8db8f116, type: 3}
+  - {fileID: 8164820980553845102, guid: 693395543abfc5644966f3d65c55007d, type: 3}
+  - {fileID: 6959331067217678719, guid: f00ca8847ecb4b645a46934f44494a85, type: 3}
   npc: {fileID: 7890582606462556945}
 --- !u!114 &7890582606462556945
 MonoBehaviour:
@@ -129,6 +132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctCanvas: {fileID: 2165280777595967556}
   nextNPC: {fileID: 1333026487055383197, guid: 37a043905b69edc46adc1941b532687b, type: 3}
+  spawnDelay: 4.5
 --- !u!1 &2165280777595967556
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,7 +276,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: I'm Sad
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -492,7 +496,6 @@ GameObject:
   - component: {fileID: 7872723996025529229}
   - component: {fileID: 1862801155567672754}
   - component: {fileID: 5450214695820759440}
-  - component: {fileID: 5579412708273210042}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -621,16 +624,3 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5579412708273210042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8187616459265857493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4506a989c8d5fa84895f4ed1b529caf3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerPOV: {fileID: 0}

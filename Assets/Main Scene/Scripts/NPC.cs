@@ -6,7 +6,7 @@ public class NPC : MonoBehaviour
 {
     [SerializeField] GameObject correctCanvas;
     [SerializeField] GameObject nextNPC;
-    [SerializeField] float spawnDelay = 4.5f;
+    [SerializeField] float spawnDelay = 4.95f;
 
 
     public void YesChoice()
@@ -18,6 +18,9 @@ public class NPC : MonoBehaviour
 
     void SpawnNextNPC()
     {
-        Instantiate(nextNPC, transform.position, Quaternion.identity);
+        GameObject newObj = Instantiate(nextNPC, transform.position, Quaternion.identity);
+
+        // Set the Y rotation of the new object to 90 degrees
+        newObj.transform.rotation = Quaternion.Euler(0, 90, 0);
     }
 }
