@@ -18,9 +18,8 @@ public class NPC : MonoBehaviour
 
     void SpawnNextNPC()
     {
-        GameObject newObj = Instantiate(nextNPC, transform.position, Quaternion.identity);
-
+        nextNPC.SetActive(true);
         // Set the Y rotation of the new object to 90 degrees
-        newObj.transform.rotation = Quaternion.Euler(0, 90, 0);
+        nextNPC.transform.rotation = Quaternion.Euler(0, 90, 0);
     }
 }

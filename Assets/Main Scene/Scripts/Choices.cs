@@ -7,6 +7,7 @@ public class Choices : MonoBehaviour
 {
     [SerializeField] List<GameObject> objectsToDestroy;
     [SerializeField] NPC npc;
+    [SerializeField] GameObject nextSetOfObjects;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -36,6 +37,7 @@ public class Choices : MonoBehaviour
     {
         Debug.Log("Yes");
         npc.YesChoice();
+        nextSetOfObjects.SetActive(true);
     }
     public void WrongChoice()
     {

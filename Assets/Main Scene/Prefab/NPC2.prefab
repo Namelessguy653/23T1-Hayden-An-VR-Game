@@ -113,8 +113,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfcf0b525f6e6c840b43bfcae98a2980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectsToDestroy: []
+  objectsToDestroy:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   npc: {fileID: 8151295284625702438}
+  objectsToSpawn:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  spawnPositions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &8151295284625702438
 MonoBehaviour:
   m_ObjectHideFlags: 0

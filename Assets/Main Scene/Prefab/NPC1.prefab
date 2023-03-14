@@ -114,10 +114,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectsToDestroy:
-  - {fileID: 6386296222010291281, guid: 537cfd28903420148a0bdb0c8db8f116, type: 3}
-  - {fileID: 8164820980553845102, guid: 693395543abfc5644966f3d65c55007d, type: 3}
-  - {fileID: 6959331067217678719, guid: f00ca8847ecb4b645a46934f44494a85, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   npc: {fileID: 7890582606462556945}
+  objectsToSpawn: []
+  spawnPositions: []
 --- !u!114 &7890582606462556945
 MonoBehaviour:
   m_ObjectHideFlags: 0
