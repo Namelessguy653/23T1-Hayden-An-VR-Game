@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44211397, g: 0.4503122, b: 0.47388282, a: 1}
+  m_IndirectSpecularColor: {r: 0.44207028, g: 0.45022452, b: 0.47395745, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -770,7 +770,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 876633788876176052, guid: 75a16d9dbf446594c9b0643fdb78bc8f, type: 3}
       propertyPath: m_text
-      value: I'm fat. Need some exercise...
+      value: Im not eating right :C
       objectReference: {fileID: 0}
     - target: {fileID: 2536376762143331797, guid: 75a16d9dbf446594c9b0643fdb78bc8f, type: 3}
       propertyPath: m_IsActive
@@ -2250,7 +2250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1006757109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3058,6 +3058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Toilet Paper
       objectReference: {fileID: 0}
+    - target: {fileID: 8360660749074981896, guid: 537cfd28903420148a0bdb0c8db8f116, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6ad851833fd5df24c84fbadccdab63d2, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 537cfd28903420148a0bdb0c8db8f116, type: 3}
 --- !u!4 &1368996376 stripped
@@ -3921,6 +3925,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: A Cat
       objectReference: {fileID: 0}
+    - target: {fileID: 6216011233578007867, guid: 87f480bd3f8d65143906823b0adda77c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.82339054
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216011233578007867, guid: 87f480bd3f8d65143906823b0adda77c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.04116137
+      objectReference: {fileID: 0}
     - target: {fileID: 6598313028189225709, guid: 87f480bd3f8d65143906823b0adda77c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3965,6 +3977,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8970497717730052110, guid: 87f480bd3f8d65143906823b0adda77c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6ad851833fd5df24c84fbadccdab63d2, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87f480bd3f8d65143906823b0adda77c, type: 3}
 --- !u!4 &1852754448 stripped
@@ -4178,6 +4194,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 42560268}
     m_Modifications:
+    - target: {fileID: 4840690402471211922, guid: 1df2b2c19b6b86a44a7847743c23d2a7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6ad851833fd5df24c84fbadccdab63d2, type: 3}
     - target: {fileID: 7260331321660930417, guid: 1df2b2c19b6b86a44a7847743c23d2a7, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4254,6 +4274,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d6bc01eb564f142a1ada6ced5215636a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1918450642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918450630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb45d44c16f45a4bbd5099fe096c20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1944307528 stripped
