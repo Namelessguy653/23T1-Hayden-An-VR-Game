@@ -42,5 +42,6 @@ public class Choices : MonoBehaviour
     public void WrongChoice()
     {
         Debug.Log("No");
+        npc.NoChoice();
     }
 }
